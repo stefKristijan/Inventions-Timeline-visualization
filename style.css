@@ -1,0 +1,136 @@
+ html,body{
+               height: 100%;
+               width:100%;
+           }
+ path{
+     fill:#15A5EE;
+}
+
+.visualization{
+    background-image:url("background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:20px;
+}
+
+        .timelineAxis path,
+        .timelineAxis line {
+            fill: none;
+            stroke: black;
+        }
+        .timelineAxis text {
+            font-family: Roboto;
+            font-size: 11px;
+            
+        }            
+
+        g.timelineAxis line, g.axis path {
+            fill:none;
+            stroke:white;
+        }
+        g.timelineAxis text{
+            font-weight: bold;
+            fill: white;
+            font-family:Poppins;
+        }
+
+         #custom_header{
+                background-image: url("invention_header.jpg");
+                background-position: center; 
+                background-size : cover;
+                height: 100%;
+                width:100%;
+                min-height: 500px;
+            }
+
+             .jumbotron{
+                position: relative;
+                 background: rgba(200,200,220, 0.4);
+                 color: #38B8F5;
+                 text-shadow: 1px 1px 2px black, 0 0 25px #FFFDD4, 0 0 5px ;
+                 align-items: center;
+                 font-family: Poppins;
+                font-weight: bold;
+                top:40%;
+                transform: translateY(-40%);
+            }
+
+            .jumbotron button{
+                margin: 20px 10px 20px 10px;
+            }
+            
+            .jumbotron p{
+               text-shadow: 1px 1px 2px black, 0 0 25px #FFFDD4, 0 0 5px ;
+               font-family: Roboto;
+                color: white;
+            }
+            .my-button{
+                background-color: #38B8F5;
+                color: white;
+                text-shadow: 0px 0px;
+                box-shadow:1px 1px 2px black, 0 0 25px #FFFDD4, 0 0 5px ;
+                margin:10px 10px 10px 10px;
+            }
+
+            .my-button:hover{
+                background-color: #3882F5;
+                color: white;
+                box-shadow:0px 0px;
+                transform:translate(3px, 3px);
+            }
+
+            #visualization{
+                margin-top:50px;
+            }
+
+            path {
+                stroke: white;
+                stroke-width: 0.25px;
+            }
+            
+            .map {
+                transform: translateY(50px);
+            }
+
+            div.priorityInfo.text-center img{
+                max-width: 100px;
+                max-height: 100px;
+            }
+
+            .priorityInfo{
+               position: absolute;
+                background: #fff;
+                background: -webkit-linear-gradient(top, #fff, #ccc, #fff);
+                font-family:Roboto;
+                font-size: 10pt;
+                padding: 3pt;
+                -webkit-border-radius: 6px;
+                -moz-border-radius: 6px;
+                border: thin solid #aaa;
+                border-radius: 6px;
+                -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+                -moz-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+                box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+                opacity: 0.9;
+            }
+
+            #info {
+                position: absolute;
+                background: #fff;
+                background: -webkit-linear-gradient(top, #fff, #ccc, #fff);
+                font-family:Roboto;
+                font-size: 10pt;
+                padding: 3pt;
+                -webkit-border-radius: 6px;
+                -moz-border-radius: 6px;
+                border: thin solid #aaa;
+                border-radius: 6px;
+                -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+                -moz-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+                box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+                opacity: 0.9;
+            }
+
+            #info.hidden {
+                display: none;
+            }
